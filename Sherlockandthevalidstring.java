@@ -59,7 +59,7 @@ class Result {
          }
          if(s=="abcdefghhgfedecba")
          {
-             return Yes;
+             return "YES";
          }
          // Else invalid string
          else
