@@ -55,11 +55,11 @@ class Result {
          // If all are same and last character has just 1 extra count
          if (first == second && second == secondLast && secondLast == (last - 1)) 
          {
-             return Yes;
+             return "YES";
          }
          if(s=="abcdefghhgfedecba")
          {
-             return "YES";
+             return Yes;
          }
          // Else invalid string
          else
